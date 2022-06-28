@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    credentials:
+      access-key: ${ACCESS-KEY}
+      secret-key: ${SECRET-KEY}
+    region:
+      static: us-east-1
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: sets-images
+
+server:  port: 9090
+      
